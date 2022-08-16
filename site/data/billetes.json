@@ -1,0 +1,28 @@
+[
+  {
+    "id": "gb-10-1967",
+    "pais": "Reino Unido",
+    "denominacion": 10,
+    "moneda": "GBP",
+    "anio": 1967,
+    "serie": "Series C",
+    "estado": "XF",
+    "certificacion": "PMG 55",
+    "notas": "Elizabeth II",
+    "frontImg": "assets/img/billetes/europa/gb-10-1967-front.jpg",
+    "backImg": "assets/img/billetes/europa/gb-10-1967-back.jpg"
+  },
+  {
+    "id": "ar-2-1980",
+    "pais": "Argentina",
+    "denominacion": 2,
+    "moneda": "ARS (hist.)",
+    "anio": 1980,
+    "serie": "Ley 18.188",
+    "estado": "VF",
+    "certificacion": "",
+    "notas": "Ejemplo de nota sin certificar",
+    "frontImg": "assets/img/billetes/argentina/ar-2-1980-front.jpg",
+    "backImg": "assets/img/billetes/argentina/ar-2-1980-back.jpg"
+  }
+]

@@ -1,0 +1,5 @@
+This directory should contain the following image files:
+- ar-2-1980-front.jpg
+- ar-2-1980-back.jpg
+
+These images represent the front and back of an Argentine 2 ARS banknote from 1980.

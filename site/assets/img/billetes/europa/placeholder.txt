@@ -1,0 +1,5 @@
+This directory should contain the following image files:
+- gb-10-1967-front.jpg
+- gb-10-1967-back.jpg
+
+These images represent the front and back of a UK 10 GBP banknote from 1967 (Series C).
