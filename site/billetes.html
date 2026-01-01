@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Detalle del billete</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <a class="back" href="index.html">← Volver</a>
+    <h1 id="title">Billete</h1>
+    <p id="subtitle" class="muted"></p>
+  </header>
+
+  <main class="container">
+    <section class="detail">
+      <div class="photos">
+        <img id="front" alt="Anverso" class="photo" />
+        <img id="back" alt="Reverso" class="photo" />
+      </div>
+
+      <div class="panel">
+        <div class="row"><span class="k">País</span><span id="pais"></span></div>
+        <div class="row"><span class="k">Denominación</span><span id="denom"></span></div>
+        <div class="row"><span class="k">Moneda</span><span id="moneda"></span></div>
+        <div class="row"><span class="k">Año</span><span id="anio"></span></div>
+        <div class="row"><span class="k">Serie</span><span id="serie"></span></div>
+        <div class="row"><span class="k">Estado</span><span id="estado"></span></div>
+        <div class="row"><span class="k">Certificación</span><span id="cert"></span></div>
+        <div class="row"><span class="k">Notas</span><span id="notas"></span></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="billete.js"></script>
+</body>
+</html>

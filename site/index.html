@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Colección de Billetes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>Mi colección de billetes</h1>
+    <p class="muted">Catálogo personal • búsqueda, filtros y detalle por billete</p>
+
+    <div class="toolbar">
+      <input id="q" class="input" type="search" placeholder="Buscar (país, año, denominación, serie, notas…)" />
+      <select id="pais" class="input">
+        <option value="">País (todos)</option>
+      </select>
+      <select id="estado" class="input">
+        <option value="">Estado (todos)</option>
+        <option value="UNC">UNC</option>
+        <option value="AU">AU</option>
+        <option value="XF">XF</option>
+        <option value="VF">VF</option>
+        <option value="F">F</option>
+        <option value="P">P</option>
+      </select>
+      <select id="sort" class="input">
+        <option value="nuevo">Más nuevos</option>
+        <option value="anioAsc">Año ↑</option>
+        <option value="anioDesc">Año ↓</option>
+        <option value="paisAsc">País A→Z</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="stats" class="stats"></div>
+    <section id="grid" class="grid"></section>
+    <div id="empty" class="empty hidden">No hay resultados con esos filtros.</div>
+  </main>
+
+  <footer class="container footer">
+    <span class="muted">Hecho por Juanma • <span id="year"></span></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
